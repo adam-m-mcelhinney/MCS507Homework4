@@ -3,6 +3,8 @@ HW4, #6
 L15, #3
 Extend our basic GUI for billiards into
 
+Done
+
 """
 
 # L-15 MCS 507 Mon 1 Oct 2012 : basic GUI for billiard ball

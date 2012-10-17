@@ -5,6 +5,8 @@ Consider the newtoniterator.py of Lecture 10 and make a
 matplotlib animation to show the convergence of Newton’s
 method. Set up the main() with some good examples.
 
+Done
+
 """
 
 import newtoniterator as n

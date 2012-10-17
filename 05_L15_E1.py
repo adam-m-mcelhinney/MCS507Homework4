@@ -6,6 +6,8 @@ plots which became less smooth as the frequency increased.
 Modify the making of the movie with a proper adjustment of the
 step size used for sampling. Justify your choice of the step size.
 
+Done
+
 """
 
 # We plot sin functions of increasing frequencies.
