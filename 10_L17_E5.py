@@ -5,7 +5,10 @@ L17, #5
 Experiment with the number of samples for z and the speed of the
 movie. Does the movie run twice as fast if we cut the number of
 samples in half? Does the cutting of samples reduce the accuracy
-of the plot?
+of the plot?+
+
+
+Done
 
 """
 

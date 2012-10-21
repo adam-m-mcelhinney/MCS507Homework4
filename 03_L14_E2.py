@@ -10,7 +10,7 @@ and compare the execution time to the vectorized version of
 (x + 2)x − 1.
 
 
-ASK PROF IF THIS IS RIGHT. SEEMS ODD
+Done
 
 """
 
@@ -18,7 +18,7 @@ from numpy import linspace
 
     
 f=lambda x: x**2+2*x-1
-a=linspace(0,1,1000)
+a=linspace(0,1,10000)
 
 
 def inplace(f,a,n):
@@ -34,13 +34,12 @@ def inplace(f,a,n):
         
     end=datetime.now()
     return end-start,end,start
-    #return t
 
 n=10000
 t=inplace(f,a,n)
 print t[0]
 # time:
-# (datetime.timedelta(0, 0, 500000)
+# 0:00:01.531000
 
 
 from numpy import vectorize
@@ -49,12 +48,11 @@ from datetime import datetime
 g=lambda x: (x+2)*x-1
 vg=vectorize(g)
 start=datetime.now()
-for i in range(n):
-    vg(a)
+vg(a)
 end=datetime.now()
 print end-start
 
 # time
-# 0:00:08.406000
+# 0:00:00.015000
 
 

@@ -5,8 +5,7 @@ L16, #2
 deﬁnes a torus knot. Plot this knot, for t ∈ [0, 2π]. Make 4 subplots
 for t ∈ [0, 2kπ/4], for k = 1,2,3,4.
 
-
-Ask Prof if he wants these subplots on the same screen as the main plot, of different.
+Done
 
 """
 
