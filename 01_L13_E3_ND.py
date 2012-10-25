@@ -14,15 +14,13 @@ Per Prof, see how location of roots changes as c,d,and e change
     
 
 
-n=10
-d=1
-e=1
+n=10;d=1;e=1
 
 for i in range(10):
     c=1-i*(1./10)
     print c
     p=(x-c)**d+e
-    p.roots(ring=CC(100))
+    p.roots(ring=ComplexField(100))
 
 
 d=5
@@ -31,7 +29,7 @@ for i in range(10):
     c=1-i*(1./10)
     print c
     p=(x-c)**d+e
-    p.roots(ring=CC(100))
+    p.roots(ring=ComplexField(100))
 
 d=10
 e=.25
@@ -39,4 +37,4 @@ for i in range(10):
     c=1-i*(1./10)
     print c
     p=(x-c)**d+e
-    p.roots(ring=CC(100))
+    p.roots(ring=ComplexField(100))
