@@ -8,13 +8,35 @@ location of the roots of p to values of c, d, and ǫ.
 
 ASK PROF
 
+Per Prof, see how location of roots changes as c,d,and e change
+
 """
     
 
-R = PolynomialRing(QQ, 'x,c')
 
-p=(x-1)**1+0
-
+n=10
+d=1
+e=1
 
 for i in range(10):
-    p=(x-c)*
+    c=1-i*(1./10)
+    print c
+    p=(x-c)**d+e
+    p.roots(ring=CC(100))
+
+
+d=5
+e=.5
+for i in range(10):
+    c=1-i*(1./10)
+    print c
+    p=(x-c)**d+e
+    p.roots(ring=CC(100))
+
+d=10
+e=.25
+for i in range(10):
+    c=1-i*(1./10)
+    print c
+    p=(x-c)**d+e
+    p.roots(ring=CC(100))
